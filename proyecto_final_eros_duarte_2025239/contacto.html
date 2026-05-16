@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eros Tienda Virtual – Contacto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo-badge">La mejor tecnologia</div>
+    <h1>Eros <span>Tienda Virtual</span></h1>
+    <p>Tu destino para productos y servicios tecnológicos en Guatemala</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <main>
+
+    <h2>Contáctanos</h2>
+    <p class="section-sub">Llena el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+
+    <div class="form-card fade-up">
+      <form id="form-contacto" novalidate>
+
+        <div class="form-grid">
+
+          <div class="form-group">
+            <label for="nombre">Nombre completo *</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" autocomplete="name">
+            <span class="error-msg" id="err-nombre"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="correo">Correo electrónico *</label>
+            <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" autocomplete="email">
+            <span class="error-msg" id="err-correo"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="telefono">Teléfono *</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="0000-0000" autocomplete="tel">
+            <span class="error-msg" id="err-telefono"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="servicio">Servicio de interés *</label>
+            <select id="servicio" name="servicio">
+              <option value="">Selecciona una opción</option>
+              <option value="reparacion">Reparación de computadoras</option>
+              <option value="software">Instalación de software</option>
+              <option value="mantenimiento">Mantenimiento preventivo</option>
+              <option value="redes">Redes y conectividad</option>
+              <option value="accesorios">Venta de accesorios</option>
+            </select>
+            <span class="error-msg" id="err-servicio"></span>
+          </div>
+
+          <div class="form-group full">
+            <label for="mensaje">Mensaje *</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Describe tu consulta o necesidad..."></textarea>
+            <span class="error-msg" id="err-mensaje"></span>
+          </div>
+
+        </div>
+
+        <button type="submit" class="btn-submit">Enviar mensaje</button>
+
+        <div class="success-msg" id="success-msg"></div>
+
+      </form>
+    </div>
+
+    <div class="tarjetas" style="margin-top:2.5rem;">
+      <div class="tarjeta fade-up" style="cursor:default;">
+        <span class="icon">📍</span>
+        <h3>Ubicación</h3>
+        <p>Zona 7, Fundación Kinal, Ciudad de Guatemala</p>
+      </div>
+      <div class="tarjeta fade-up" style="cursor:default;">
+        <span class="icon">📞</span>
+        <h3>Teléfono</h3>
+        <p>4072-8583 · Lunes a Sábado, 8:00–18:00 hrs</p>
+      </div>
+      <div class="tarjeta fade-up" style="cursor:default;">
+        <span class="icon">✉️</span>
+        <h3>Correo</h3>
+        <p>eduarte-2025239@kinal.edu.gt</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; Zona 7, Fundación Kinal, Ciudad de Guatemala · Tel: 2200-1111</p>
+    <p style="margin-top:6px;"><a href="index.html">Inicio</a> · <a href="servicios.html">Servicios</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

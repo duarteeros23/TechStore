@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eros Tienda Virtual – Servicios</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo-badge">La mejor tecnologia</div>
+    <h1>Eros <span>Tienda Virtual</span></h1>
+    <p>Tu destino para productos y servicios tecnológicos en Guatemala</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <main>
+
+    <h2>Nuestros Servicios</h2>
+    <p class="section-sub">Ofrecemos soluciones tecnológicas integrales para personas y empresas.</p>
+
+    <div class="fade-up" style="margin-bottom: 1.25rem; display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+      <input
+        type="text"
+        id="filtro-servicios"
+        placeholder="🔍 Buscar servicio..."
+        style="max-width:320px;"
+        aria-label="Filtrar servicios"
+      >
+      <span id="resultado-filtro" style="font-size:13px; color:var(--muted);"></span>
+    </div>
+
+    <div class="table-wrap fade-up">
+      <table>
+        <thead>
+          <tr>
+            <th>Servicio</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Reparación de computadoras</td>
+            <td>Diagnóstico y reparación de laptops y equipos de escritorio</td>
+            <td><span class="precio-badge">Desde Q150</span></td>
+          </tr>
+          <tr>
+            <td>Instalación de software</td>
+            <td>Sistema operativo, programas profesionales y antivirus</td>
+            <td><span class="precio-badge">Desde Q75</span></td>
+          </tr>
+          <tr>
+            <td>Mantenimiento preventivo</td>
+            <td>Limpieza interna profunda y optimización del equipo</td>
+            <td><span class="precio-badge">Desde Q100</span></td>
+          </tr>
+          <tr>
+            <td>Redes y conectividad</td>
+            <td>Instalación y configuración de redes WiFi empresariales y domésticas</td>
+            <td><span class="precio-badge">Desde Q200</span></td>
+          </tr>
+          <tr>
+            <td>Venta de accesorios</td>
+            <td>Teclados, mouses, auriculares, cables, memorias y más</td>
+            <td><span class="precio-badge">Varios precios</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p style="margin-top:2rem; color:var(--muted); font-size:14px;">
+      ¿Tienes alguna duda sobre nuestros servicios?
+      <a href="contacto.html" style="color:var(--accent);">Contáctanos</a> y con gusto te atendemos.
+    </p>
+
+  </main>
+
+  <footer>
+    <p>&copy;  Zona 7, Fundación Kinal, Ciudad de Guatemala · Tel: 4072-8583</p>
+    <p style="margin-top:6px;"><a href="index.html">Inicio</a> · <a href="contacto.html">Contacto</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
